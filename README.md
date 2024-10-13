@@ -6,9 +6,9 @@ sudo apt install libboost-all-dev
 
 include/common.hpp: change image_transport.h to .hpp and same with cv_bridge.h
 
-sudo ln -s [current libopencv_core.so path]  [/libopencv_core.so.4.5d]
+sudo ln -s [current libopencv_core.so path]  [/libopencv_core.so.4.5d]'
 
-
+sudo apt install python3-natsort
 
 
 # ROS2 ORB SLAM3 V1.0 package
