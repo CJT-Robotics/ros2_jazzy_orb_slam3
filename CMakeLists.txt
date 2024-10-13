@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 project(ros2_orb_slam3)
 
 # Make sure to set this path before building the  
-set(ENV{PYTHONPATH} "/opt/ros/humble/lib/python3.10/site-packages/") # Must be set to match your installation
+set(ENV{PYTHONPATH} "/opt/ros/jazzy/lib/python3.12/site-packages/") # Must be set to match your installation
 
 # Must use C++17 to make it compatible with rclcpp
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O3")
