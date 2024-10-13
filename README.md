@@ -1,3 +1,13 @@
+jazzy port:
+
+CMkakeLists: Python ENV: humble to jazzy and python 3.10 to own python version
+sudo apt install libboost-all-dev
+include/common.hpp: change image_transport.h to .hpp and same with cv_bridge.h
+sudo ln -s [current libopencv_core.so path]  [/libopencv_core.so.4.5d]
+
+
+
+
 # ROS2 ORB SLAM3 V1.0 package
 
 A ROS2 package for ORB SLAM3 V1.0. Focus is on native integration with ROS2 ecosystem. My goal is to provide a "bare-bones" starting point for developers in using ORB SLAM3 framework in their ROS 2 projects. Hence, this package will not use more advanced features of ROS 2 such as rviz, tf and launch files. This project structure is heavily influenced by the excellent ROS1 port of ORB SLAM3 by [thien94](https://github.com/thien94/orb_slam3_ros/tree/master). 
